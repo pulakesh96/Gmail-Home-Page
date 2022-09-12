@@ -1,0 +1,245 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+::-moz-placeholder {
+  color: rgb(255, 255, 255);
+  opacity: 100%;
+  font-size: 18px;
+}
+
+:-ms-input-placeholder {
+  color: rgb(255, 255, 255);
+  opacity: 100%;
+  font-size: 18px;
+}
+
+::placeholder {
+  color: rgb(255, 255, 255);
+  opacity: 100%;
+  font-size: 18px;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header_left {
+  display: flex;
+  align-items: center;
+  margin-left: 200px;
+  justify-content: space-between;
+  margin: 0px 10px 10px 10px;
+  margin-top: 9px;
+}
+.header_left_bar {
+  width: 70px;
+  height: 40px;
+  padding-left: 10px;
+  margin-right: 5px;
+  padding: 0px 7px;
+  cursor: pointer;
+}
+.header_left_img {
+  width: 100px;
+  height: 45px;
+  padding-left: 10px;
+  margin-right: 5px;
+  padding: 0px 7px;
+  cursor: pointer;
+}
+.header_middle {
+  display: flex;
+  align-items: center;
+  background-color: rgb(233, 233, 233);
+  opacity: 0.5;
+  border-radius: 7px;
+  margin-top: 3px;
+  width: 60%;
+  height: 40px;
+  margin-left: 60px;
+  margin-right: 200px;
+}
+.header_middle_textbox {
+  width: 80%;
+  height: 50px;
+  text-align: left;
+  letter-spacing: 2px;
+  border: none;
+  margin: 10px;
+  border-radius: 3px;
+  background: transparent;
+  text-shadow: 2px 2px 4px #000000;
+}
+.header_right {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.material-symbols-outlined {
+  margin-left: 5px;
+  padding-right: 1rem;
+  cursor: pointer;
+}
+
+.slidebar {
+  margin-top: 10px;
+  margin-left: 15px;
+  padding-bottom: 7rem;
+  width: 200px;
+}
+.slidebar_button {
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-left: 10px;
+  border-radius: 20px;
+  border: none;
+  display: flex;
+  margin-right: 5px;
+  width: 150px;
+  height: 50px;
+  font-size: 18px;
+  cursor: pointer;
+  box-shadow: 4px 5px 10px 0px rgb(68, 68, 68);
+}
+.slidebar_menu {
+  display: flex;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  cursor: pointer;
+  width: 80%;
+  height: 30px;
+  align-items: center;
+}
+.slidebar_menu.active {
+  background-color: #ffffff;
+  border-radius: 7px;
+}
+.slidebar_menu:hover {
+  background-color: #4d4b4b;
+  color: rgb(255, 255, 255);
+  border-radius: 8px;
+}
+.slidebar_menu h3 {
+  text-transform: capitalize;
+  text-decoration: none;
+  -webkit-text-decoration-style: none;
+          text-decoration-style: none;
+}
+.slidebar_footer_icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.main {
+  display: flex;
+  height: 90vh;
+}
+
+.email {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 25px;
+  position: relative;
+}
+.email_settings {
+  align-items: center;
+  display: flex;
+  margin-top: 5px;
+  position: -webkit-sticky;
+  position: sticky;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(228, 228, 228);
+  padding: 8px;
+}
+.email_settings_left {
+  align-items: center;
+  padding-left: 2rem;
+}
+.email_settings_left_checkbox {
+  width: 20px;
+  height: 20px;
+}
+.email_settings_right {
+  margin-left: 700px;
+  align-items: center;
+}
+
+.emaillist {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 0.5rem;
+  background: rgba(255, 255, 255, 0.2);
+  opacity: 0.6;
+}
+.emaillist_section {
+  align-items: center;
+  display: flex;
+  cursor: pointer;
+  width: 255px;
+  height: 40px;
+  padding-left: 10px;
+}
+.emaillist_section:hover {
+  background-color: #686767;
+  color: rgb(255, 251, 251);
+  border-radius: 8px;
+}
+
+.maillist_1 {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid whitesmoke;
+  justify-content: space-between;
+}
+.maillist_1:hover {
+  box-shadow: inset 4px 5px 10px 0px rgb(68, 68, 68);
+  border-radius: 7px;
+}
+.maillist_1 .date {
+  color: black;
+}
+.maillist_1_icon {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.name {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.details {
+  width: 70%;
+  padding-left: 50px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.details_flex {
+  display: flex;
+  background: rgba(248, 244, 244, 0.5);
+  width: 30%;
+  border-radius: 9px;
+}
+
+.br {
+  border: 1px solid red;
+}/*# sourceMappingURL=style.css.map */
